@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{C956A683-AC17-453B-8A64-DD6B1954FA9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endpoint.Publisher", "Endpoint.Publisher\Endpoint.Publisher.csproj", "{8BC3CDF7-B84B-45E7-83A2-DC0E6F377597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endpoint.Subscriber", "Endpoint.Subscriber\Endpoint.Subscriber.csproj", "{C51FD5F9-D8C4-49F6-BCC2-B4FFAEF31C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multicast.Publisher", "Multicast.Publisher\Multicast.Publisher.csproj", "{2FB310BF-AD71-4996-95FA-1509A98F9476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multicast.Subscriber", "Multicast.Subscriber\Multicast.Subscriber.csproj", "{413D179F-F8B8-45FD-A0BB-1B3409A1F311}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuntimeServices.Publisher", "RuntimeServices.Publisher\RuntimeServices.Publisher.csproj", "{119D01C3-7972-48F7-A0B9-AC8DEE25B2EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuntimeServices.Subscriber", "RuntimeServices.Subscriber\RuntimeServices.Subscriber.csproj", "{2D2B1ED0-680A-4ED0-93A2-1AD286811BB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticRouting.Publisher", "StaticRouting.Publisher\StaticRouting.Publisher.csproj", "{0A72EAD2-9CB9-48BB-82A8-016C36D0AE3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticRouting.Subscriber", "StaticRouting.Subscriber\StaticRouting.Subscriber.csproj", "{2DAA000F-1351-4C26-94F6-12CC843BE92E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{51CB8397-9A2C-43E2-9FC3-554FA87ACECF}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C956A683-AC17-453B-8A64-DD6B1954FA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C956A683-AC17-453B-8A64-DD6B1954FA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C956A683-AC17-453B-8A64-DD6B1954FA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C956A683-AC17-453B-8A64-DD6B1954FA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC3CDF7-B84B-45E7-83A2-DC0E6F377597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC3CDF7-B84B-45E7-83A2-DC0E6F377597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC3CDF7-B84B-45E7-83A2-DC0E6F377597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC3CDF7-B84B-45E7-83A2-DC0E6F377597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51FD5F9-D8C4-49F6-BCC2-B4FFAEF31C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51FD5F9-D8C4-49F6-BCC2-B4FFAEF31C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51FD5F9-D8C4-49F6-BCC2-B4FFAEF31C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51FD5F9-D8C4-49F6-BCC2-B4FFAEF31C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FB310BF-AD71-4996-95FA-1509A98F9476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB310BF-AD71-4996-95FA-1509A98F9476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB310BF-AD71-4996-95FA-1509A98F9476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB310BF-AD71-4996-95FA-1509A98F9476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413D179F-F8B8-45FD-A0BB-1B3409A1F311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413D179F-F8B8-45FD-A0BB-1B3409A1F311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413D179F-F8B8-45FD-A0BB-1B3409A1F311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413D179F-F8B8-45FD-A0BB-1B3409A1F311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{119D01C3-7972-48F7-A0B9-AC8DEE25B2EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119D01C3-7972-48F7-A0B9-AC8DEE25B2EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119D01C3-7972-48F7-A0B9-AC8DEE25B2EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119D01C3-7972-48F7-A0B9-AC8DEE25B2EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D2B1ED0-680A-4ED0-93A2-1AD286811BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2B1ED0-680A-4ED0-93A2-1AD286811BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2B1ED0-680A-4ED0-93A2-1AD286811BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2B1ED0-680A-4ED0-93A2-1AD286811BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A72EAD2-9CB9-48BB-82A8-016C36D0AE3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A72EAD2-9CB9-48BB-82A8-016C36D0AE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A72EAD2-9CB9-48BB-82A8-016C36D0AE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A72EAD2-9CB9-48BB-82A8-016C36D0AE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DAA000F-1351-4C26-94F6-12CC843BE92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DAA000F-1351-4C26-94F6-12CC843BE92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DAA000F-1351-4C26-94F6-12CC843BE92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DAA000F-1351-4C26-94F6-12CC843BE92E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
